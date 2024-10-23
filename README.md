@@ -1,12 +1,26 @@
-<<<<<<< HEAD
-# stoore
-=======
-# React + Vite
+# Stoore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Stoore é uma loja virtual de eletrônicos desenvolvida utilizando Vite, React.js e Tailwind CSS. Este aplicativo foi projetado para proporcionar uma experiência de compra fluida e segura, permitindo que os usuários simulem todas as etapas do processo de compra.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> 4d82e70 (feat: estrutura base do stoore, com navegação basica entre as 3 principais telas)
+- **React.js**: Biblioteca JavaScript para construir interfaces de usuário.
+- **Vite**: Ferramenta de build que fornece um ambiente de desenvolvimento rápido.
+- **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.
+- **React Icons**: Biblioteca para ícones em projetos React.
+- **Axios**: Para fazer requisições HTTP.
+- **Express**: Para a criação de um servidor backend.
+- **JSON**: Para armazenamento local de dados.
+
+## Funcionalidades
+
+- **Navegação**: O usuário pode navegar facilmente entre as principais seções do aplicativo:
+  - **Home**: Exibe os produtos eletrônicos disponíveis.
+  - **Carrinho**: Mostra os itens que o usuário adicionou ao carrinho, permitindo uma visualização clara dos produtos selecionados.
+  - **Perfil**: Permite que o usuário visualize e edite suas informações pessoais.
+
+- **Responsividade**: O layout é totalmente responsivo, garantindo uma ótima experiência em dispositivos móveis e desktops.
+
+## Objetivo
+
+O objetivo do Stoore é construir um ambiente seguro e simular todas as etapas necessárias para a realização de uma compra, desde a seleção dos produtos até a finalização do pedido. O aplicativo busca oferecer uma experiência de e-commerce que seja intuitiva e acessível a todos os usuários.
