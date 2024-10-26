@@ -7,6 +7,24 @@ import slide2 from "../assets/slide2.png";
 import slide3 from "../assets/slide3.png";
 import slide4 from "../assets/slide4.png";
 
+/*
+const product = {
+  id: "1",
+  image: "slide1",
+  name: "Notebook Dell Inspiron 15 - Intel Core i5, 8GB RAM, 256GB SSD",
+  description: "Notebook de alto desempenho com processador Intel Core i5, 8GB de RAM e armazenamento SSD de 256GB.",
+  price: 2999.99,
+  rating: 4.5,
+  stock: null, // ou Infinity, indicando estoque ilimitado
+  categories: [
+      { type: "Processador", value: "Intel Core i5" },
+      { type: "Memória RAM", value: "8GB" },
+      { type: "Armazenamento", value: "256GB SSD" },
+      { type: "Tela", value: "15.6'' Full HD" }
+  ]
+};
+*/
+
 const products = [
   {
     image: slide1,
