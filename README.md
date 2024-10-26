@@ -12,6 +12,23 @@ Stoore é uma loja virtual de eletrônicos desenvolvida utilizando Vite, React.j
 - **Express**: Para a criação de um servidor backend.
 - **JSON**: Para armazenamento local de dados.
 
+## Convenções de Commits
+
+| Tipo      | Descrição                                                                                 | Exemplo                                      |
+|-----------|-------------------------------------------------------------------------------------------|----------------------------------------------|
+| `feat`    | Adiciona uma nova funcionalidade ao projeto.                                              | `feat: adiciona página de checkout`          |
+| `fix`     | Corrige um bug.                                                                           | `fix: corrige erro no cálculo de frete`      |
+| `docs`    | Modifica apenas documentos (README, comentários, etc.).                                   | `docs: atualiza instruções de instalação no README` |
+| `style`   | Alterações de estilo (espaçamento, formatação) que não afetam a lógica do código.         | `style: ajusta espaçamento no arquivo CSS`   |
+| `refactor`| Modifica o código sem adicionar funcionalidades ou corrigir bugs (melhoria de código).    | `refactor: simplifica lógica da função de autenticação` |
+| `perf`    | Melhorias de desempenho no código.                                                        | `perf: otimiza carregamento de imagens`      |
+| `test`    | Adiciona ou modifica testes.                                                              | `test: adiciona testes para o componente Header` |
+| `chore`   | Atualizações de tarefas de build, configurações e ferramentas que não afetam o código de produção. | `chore: atualiza dependências do projeto` |
+| `ci`      | Mudanças relacionadas à configuração de CI (integração contínua).                         | `ci: adiciona job para testes automáticos`   |
+| `build`   | Alterações que afetam o sistema de build ou dependências externas.                        | `build: configura webpack para o ambiente de produção` |
+| `revert`  | Reverte um commit anterior.                                                               | `revert: reverte commit de ajuste de responsividade` |
+
+
 ## Funcionalidades
 
 - **Navegação**: O usuário pode navegar facilmente entre as principais seções do aplicativo:
