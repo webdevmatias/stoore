@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Perfil from "./pages/Perfil";
 import Carrinho from "./pages/Carrinho";
 import Header from "./componentes/Header";
-import NavBar from "./componentes/NavBar"; // Importe o NavBar
+import NavBar from "./componentes/NavBar";
 
 function App() {
   const [currentSection, setCurrentSection] = useState("home");
