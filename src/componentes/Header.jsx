@@ -1,6 +1,5 @@
-// componentes/Header.jsx
 import StooreLogo from "../assets/stoore_logo_white.svg";
-import { FaSearch } from "react-icons/fa"; // Ícone de pesquisa
+import { FaSearch } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -11,7 +10,7 @@ const Header = () => {
       </div>
 
       {/* Campo de Pesquisa */}
-      <div className="flex w-3/5 md:w-2/5"> {/* Centraliza e limita a largura */}
+      <div className="flex w-3/5 md:w-2/5"> 
         <input
           type="text"
           placeholder="Pesquisa na Stoore"
