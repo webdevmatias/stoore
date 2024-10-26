@@ -3,7 +3,7 @@ import { FaSearch } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <nav className="flex flex-row justify-center gap-4 items-center fixed top-0 w-full h-16 bg-primary">
+    <nav className="flex flex-row justify-center gap-4 items-center fixed z-50 top-0 w-full h-16 bg-primary">
       {/* Logo */}
       <div className="flex items-center w-24 md:w-28">
         <img src={StooreLogo} alt="Stoore Logo" className="h-8" />
