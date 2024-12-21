@@ -103,7 +103,7 @@ const Home = () => {
   return (
     <>
       <div className="flex flex-col items-center w-full h-full">
-        <section className="flex flex-col justify-center w-full items-center mt-16">
+        <section className="flex flex-col justify-center w-full items-center mt-28 md:mt-24">
           <ImageSlider images={sliderImages} />
         </section>
         

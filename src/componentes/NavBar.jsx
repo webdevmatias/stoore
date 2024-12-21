@@ -4,7 +4,7 @@ import { FaHome, FaShoppingCart, FaUserAlt } from "react-icons/fa";
 
 function NavBar({ setCurrentSection, cartItemCount }) {
   return (
-    <nav className="flex flex-row justify-around fixed bottom-0 bg-black md:bg-primary w-full mb-0 md:mb-4 md:w-2/5 h-auto rounded-t-lg md:rounded-xl">
+    <nav className="flex flex-row justify-around fixed bottom-0 bg-black md:bg-black w-full md:w-2/5 h-auto rounded-none md:rounded-lg mb-0 md:mb-8">
       <button
         className="flex flex-col items-center justify-center shadow-sm w-1/3 focus:outline-none"
         onClick={() => setCurrentSection("home")}

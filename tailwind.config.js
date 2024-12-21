@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-          primary: '#F9A620', //laranja base
+          secondary: '#F9A620', //laranja base
+          primary: '#0F1111', //azul escuro base
           primaryDark: '#D38300',
           raisinBlack: '#272838'
       },
