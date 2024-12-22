@@ -107,7 +107,7 @@ const Home = () => {
           <ImageSlider images={sliderImages} />
         </section>
         
-        <section className="flex flex-row flex-wrap justify-center mt-4 mb-20 w-full">
+        <section className="flex flex-row flex-wrap justify-center gap-2 mt-4 mb-28 w-full px-4 md:px-0">
           {products.map((product, index) => (
             <ProductCard key={index} product={product} />
           ))}

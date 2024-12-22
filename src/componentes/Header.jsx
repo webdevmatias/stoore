@@ -34,11 +34,11 @@ const Header = () => {
             id="categories"
             className="focus:outline-none rounded-md bg-gray-800 text-white"
           >
-            <option value="eletronicos">Eletrônicos</option>
-            <option value="moda">Moda</option>
-            <option value="casa">Casa</option>
-            <option value="esportes">Esportes</option>
-            <option value="brinquedos">Brinquedos</option>
+            <option value="Notebooks">Notebooks</option>
+            <option value="PC Gamer">PC Gamer</option>
+            <option value="Desktop">Desktop</option>
+            <option value="Escritório">Escritório</option>
+            <option value="Gadgets">Gadgets</option>
           </select>
         </div>
 

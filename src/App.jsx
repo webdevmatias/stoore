@@ -9,7 +9,7 @@ import NavBar from "./componentes/NavBar";
 
 function App() {
   const [currentSection, setCurrentSection] = useState("home");
-  const [cartItemCount, setCartItemCount] = useState(0);
+  const [cartItemCount, setCartItemCount] = useState(4);
 
   const renderSection = () => {
     switch (currentSection) {

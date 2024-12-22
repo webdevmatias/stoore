@@ -7,16 +7,17 @@ const ProductCard = ({ product }) => {
   };
 
   return (
-    <div className="flex flex-col items-center bg-white mx-4 my-2 rounded-lg p-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 h-auto shadow-lg">
+    <div className="flex flex-col items-center bg-white rounded-lg p-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 h-auto shadow-lg">
       {/* Imagem do Produto */}
       <img
         src={product.image}
         alt={product.name}
-        className="w-full h-40 object-cover rounded-t-lg"
+        className="w-full h-50
+         object-cover rounded-t-lg"
       />
 
       {/* Detalhes do Produto */}
-      <div className="flex flex-col items-center justify-between mt-2 text-center">
+      <div className="flex flex-col items-center justify-between text-center">
         <h2 className="text-md font-semibold text-gray-800 line-clamp-1 md:line-clamp-2">
           {product.name}
         </h2>
