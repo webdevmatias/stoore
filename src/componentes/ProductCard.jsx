@@ -26,7 +26,7 @@ const ProductCard = ({ product }) => {
         <div className="flex justify-end w-full mt-2">
           <button
             onClick={handleBuyClick}
-            className="p-1 bg-raisinBlack w-full hover:bg-black text-white rounded-l-lg transition duration-200"
+            className="p-1 bg-secondary w-full hover:bg-black text-black hover:text-white rounded-l-lg transition duration-200"
           >
             Comprar
           </button>
