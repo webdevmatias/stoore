@@ -1,6 +1,7 @@
 import "../App.css";
 import ImageSlider from "../componentes/ImageSlider";
 import ProductCard from "../componentes/ProductCard";
+import Footer from "../componentes/Footer";
 
 // Imagens para o slider
 import slide1 from "../assets/slide1.png";
@@ -107,11 +108,12 @@ const Home = () => {
           <ImageSlider images={sliderImages} />
         </section>
         
-        <section className="flex flex-row flex-wrap justify-center gap-2 mt-4 mb-28 w-full px-4 md:px-0">
+        <section className="flex flex-row flex-wrap justify-center gap-2 my-8 w-full px-4 md:px-0">
           {products.map((product, index) => (
             <ProductCard key={index} product={product} />
           ))}
         </section>
+        <Footer></Footer>
       </div>
     </>
   );
