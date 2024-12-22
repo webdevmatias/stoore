@@ -6,7 +6,7 @@ const Perfil = () => {
   return (
     <div className="flex flex-col justify-center items-center w-full h-auto bg-gray-100 px-6">
       {/* Cartão de Perfil */}
-      <div className="bg-white rounded-lg shadow-lg p-8 w-full mt-36 max-w-4xl flex flex-col md:flex-row items-center md:items-start">
+      <div className="bg-white rounded-lg shadow-lg p-8 w-full my-36 max-w-4xl flex flex-col md:flex-row items-center md:items-start">
         {/* Foto de Perfil */}
         <div className="mb-6 md:mb-0 md:w-1/3 flex justify-center">
           <img
